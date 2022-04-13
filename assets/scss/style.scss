@@ -529,6 +529,13 @@ body {
 
 // Mobile
 @media only screen and (max-width:739px) {
+    #app {
+        margin: 0;
+        margin-top: 10px;
+    }
+    body{
+        overflow: hidden;
+    }
     .project-section-boxes.Grid-View {
         .project-box-wrapper {
             width: 100%;
@@ -570,6 +577,13 @@ body {
 // Tablet
 
 @media only screen and (min-width:740px) and (max-width:1023px) {
+    #app {
+        margin: 0;
+        margin-top: 10px;
+    }
+    body{
+        overflow: hidden;
+    }
     .messages-section {
         transition: all 0.2s linear;
         position: absolute;
